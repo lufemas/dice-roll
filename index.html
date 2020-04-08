@@ -11,7 +11,22 @@
   </head>
   <body>
 
-    <h1>The Diceroll Casino</h1>
+    <article class="dice-game">
+      <h1>The Diceroll Casino</h1>
+      <section class="score">You rolled: <span id="score-number">3</span></section>
+
+      <ul id="dice" class="dice">
+        <li class="dice-face" id="face-1"><img src="./img/dice1.svg" alt="Dice Face 1"></li>
+        <li class="dice-face" id="face-2"><img src="./img/dice2.svg" alt="Dice Face 2"></li>
+        <li class="dice-face show-face" id="face-3"><img src="./img/dice3.svg" alt="Dice Face 3"></li>
+        <li class="dice-face" id="face-4"><img src="./img/dice4.svg" alt="Dice Face 4"></li>
+        <li class="dice-face" id="face-5"><img src="./img/dice5.svg" alt="Dice Face 5"></li>
+        <li class="dice-face" id="face-6"><img src="./img/dice6.svg" alt="Dice Face 6"></li>
+      </ul>
+
+      <button class="btn" id="roll-btn">ROLL</button>
+
+    </article>
 
     <!-- To start: Build a "static prototype" interface for the application using only HTML & CSS (note: images are provided), such that the document's output (user facing) looks something like this:
 

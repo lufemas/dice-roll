@@ -1,0 +1,52 @@
+:root{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+.dice-game{
+    margin: 2rem 3rem;
+}
+
+.score{
+    margin: 3rem 0;
+    font-size: 2rem;
+}
+
+#score-number{
+    font-weight: bold;
+}
+
+.dice{
+   width: 80%;
+}
+
+.dice-face{
+    max-width: 40%;
+    border: solid 0.25rem black;
+    border-radius: .5rem;
+    display: none;
+ }
+
+ .dice-face.show-face {
+     display: block;
+ }
+
+ .btn {
+     margin: 2rem 0;
+     padding: 1rem 2rem;
+     font-size: 2rem;
+     background-color: #333;
+     color: white;
+     border: none;
+     border-radius: .5rem;
+ }
+
+ .btn:hover{
+     cursor: pointer;
+     background-color: #444;
+ }
+
+ .btn:active{
+    cursor: pointer;
+    background-color: #666;
+}
